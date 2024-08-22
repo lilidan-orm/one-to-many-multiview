@@ -217,20 +217,6 @@ print('acc: {acc:.4f}\t'
                 'F_std: {f1_std:.4f}\t'
                 'RI:{RI:.4f}\t'
                 'RI_std: {ri_std:.4f}'.format(acc=acc_avg,acc_std=acc_std,NMI=nmi_avg,nmi_std=nmi_std,F=f1_avg,f1_std=f1_std,RI=ri_avg,ri_std=ri_std))
-# print('acc: {acc:.4f}\t'
-#               'NMI: {NMI:.4f}'.format(acc=acc(label_all,label_pred),NMI=nmi(label_all,label_pred)))
-# mask_s1_all =torch.cat( mask_s1_all).cpu().numpy()
-# mask_s2_all =torch.cat( mask_s2_all).cpu().numpy()
-# mask_s3_all =torch.cat( mask_s3_all).cpu().numpy()
-# mask_s4_all =torch.cat( mask_s4_all).cpu().numpy()
-# mask_s5_all =torch.cat( mask_s5_all).cpu().numpy()
-# mask_s6_all =torch.cat( mask_s6_all).cpu().numpy()
 
-# sio.savemat('C:/Users/B/Desktop/co_learning-multi-view-instance/multi-view_representation_learning/可视化数据/caltech101/mask_s1_all.mat',{'mask_s1_all':mask_s1_all})  
-# sio.savemat('C:/Users/B/Desktop/co_learning-multi-view-instance/multi-view_representation_learning/可视化数据/caltech101/mask_s2_all.mat',{'mask_s2_all':mask_s2_all})  
-# sio.savemat('C:/Users/B/Desktop/co_learning-multi-view-instance/multi-view_representation_learning/可视化数据/caltech101/mask_s3_all.mat',{'mask_s3_all':mask_s3_all})  
-# sio.savemat('C:/Users/B/Desktop/co_learning-multi-view-instance/multi-view_representation_learning/可视化数据/caltech101/mask_s4_all.mat',{'mask_s4_all':mask_s4_all}) 
-# sio.savemat('C:/Users/B/Desktop/co_learning-multi-view-instance/multi-view_representation_learning/可视化数据/caltech101/mask_s5_all.mat',{'mask_s5_all':mask_s5_all})
-# sio.savemat('C:/Users/B/Desktop/co_learning-multi-view-instance/multi-view_representation_learning/可视化数据/caltech101/mask_s6_all.mat',{'mask_s6_all':mask_s6_all})  
 # print('Finished Training') 
 #####################################################
