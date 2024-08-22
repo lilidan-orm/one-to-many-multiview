@@ -1,4 +1,4 @@
-One-to-many Multi-view
+One-to-Many Multi-view
 =
 This repository contains the code for our paper "Multi-view Representation Learning with One-to-Many Dynamic Relationships", which is under review in the IEEE TNNLS journal.
 
