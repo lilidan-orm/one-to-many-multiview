@@ -20,7 +20,9 @@ The code includes:
 * an example implementation of the model on the Reuters dataset
 * an example clustering task  
 
-You can get the following output by running multi_view_main.py
+You can get the following output by running multi_view_main.py  
+(modify the dataset path in the multi_view_data.py)
+
 
 
 
