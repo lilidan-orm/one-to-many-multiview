@@ -24,4 +24,10 @@ You can get the results by running multi_view_main.py
 
 
 
-
+```
+@Override
+protected void onDestroy() {
+    EventBus.getDefault().unregister(this);
+    super.onDestroy();
+}
+```
