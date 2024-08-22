@@ -19,7 +19,8 @@ Usage
 The code includes:  
 * an example implementation of the model on the Reuters dataset
 * an example clustering task  
-#You can get the results by running multi_view_main.py
+
+You can get the results by running multi_view_main.py
 
 
 
