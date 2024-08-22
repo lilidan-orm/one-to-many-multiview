@@ -12,7 +12,7 @@ scipy>=1.3.1
 
 Dataset
 =
-The dataset used in the paper can be obtained through the following links [cloud](https://www.baidu.com/) 
+The datasets used in the paper can be obtained through the following links [cloud](https://www.baidu.com/) 
 
 Usage
 =
