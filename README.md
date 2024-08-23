@@ -27,9 +27,13 @@ You can get the following output by running multi_view_main.py
 
 
 ```
-@Override
-protected void onDestroy() {
-    EventBus.getDefault().unregister(this);
-    super.onDestroy();
-}
+Epoch 43 | Batch   0/ 74 | Time/Batch(ms)  2.11 | Train Loss_1 6.4164| Train Loss_2 0.6931
+Epoch 44 | Batch   0/ 74 | Time/Batch(ms)  2.15 | Train Loss_1 6.3914| Train Loss_2 0.6934
+Epoch 45 | Batch   0/ 74 | Time/Batch(ms)  2.18 | Train Loss_1 6.4116| Train Loss_2 0.6933
+Epoch 46 | Batch   0/ 74 | Time/Batch(ms)  2.09 | Train Loss_1 6.3757| Train Loss_2 0.6932
+Epoch 47 | Batch   0/ 74 | Time/Batch(ms)  2.19 | Train Loss_1 6.3719| Train Loss_2 0.6936
+Epoch 48 | Batch   0/ 74 | Time/Batch(ms)  2.12 | Train Loss_1 6.3610| Train Loss_2 0.6932
+Epoch 49 | Batch   0/ 74 | Time/Batch(ms)  2.11 | Train Loss_1 6.3502| Train Loss_2 0.6938
+---------- Test Start ----------
+acc: 0.8879     acc_std: 0.0859 NMI: 0.8623     NMI_std: 0.0514 F:0.8817        F_std: 0.0560   RI:0.9477       RI_std: 0.0293
 ```
