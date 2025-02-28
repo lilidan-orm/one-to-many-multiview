@@ -1,6 +1,6 @@
 One-to-Many Multi-view
 =
-This repository contains the code for our paper "Multi-view Representation Learning with One-to-Many Dynamic Relationships".
+This repository contains the code for our paper "Multiview Representation Learning with One-to-Many Dynamic Relationships".
 
 Requirment
 =
